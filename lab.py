@@ -1,5 +1,5 @@
 from datetime import datetime
-
+#2019038042 이도경
 now  = datetime.now()
 print("현재 :", now)	# 현재 : 2021-01-09 21:30:12.050111
 
