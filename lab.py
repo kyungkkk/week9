@@ -1,10 +1,12 @@
-from datetime import datetime
-#2019038042 이도경
-now  = datetime.now()
-print("현재 :", now)	# 현재 : 2021-01-09 21:30:12.050111
+from tkinter import*
+import PIL
 
-date_to_compare = datetime.strptime("20201225", "%Y%m%d")
-print("비교할 날짜 :", date_to_compare)	# 비교할 날짜 : 2020-12-25 00:00:00
+window=Tk()
+window.title("윈도창 연습")
 
-date_diff = now - date_to_compare
-print("차이 :", date_diff)
+photo=PhotoImage(file="cat.gif")
+label1=Label(window,image=photo)
+
+label1.pack()
+
+window.mainloop()

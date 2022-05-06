@@ -1,0 +1,1 @@
+iamge=paper,state="normal")
